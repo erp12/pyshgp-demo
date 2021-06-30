@@ -39,7 +39,7 @@ x_train = np.arange(30).reshape(-1, 1)  # Use the numbers 0 to 30 to train
 y_train = np.array([fizz_buzz(x[0]) for x in x_train]).reshape(-1, 1)
 
 x_test = np.arange(30, 50).reshape(-1, 1)  # Use the numbers 30 to 50 to test
-y_test = np.array([fizz_buzz(x[0]) for x in x_train]).reshape(-1, 1)
+y_test = np.array([fizz_buzz(x[0]) for x in x_test]).reshape(-1, 1)
 
 
 """
